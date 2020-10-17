@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+.container{
+    min-width: 1285px;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0 ;
+    margin: 0 auto;
+    background-color: #f0f2f5;
+    display: inline-block;
+}
+/*Last Login Interface*/
+header{
+    text-align: left;
+}
+header>img{
+    margin-bottom: -5px;
+
+}
+header>h2{
+    font-size: 28px;
+    font-weight: normal;
+
+}
+.recent-logins{
+    display: inline-block;
+    width: 500px;
+    margin-left: 13%;
+    font-family: "Roboto Condensed", serif;
+}
+img{
+    width: 150px;
+}
+.last-logins{
+    display: inline-block;
+    margin-top: 30px;
+    width: 160px;
+    height: 212px;
+    position: relative;
+}
+.last-logins .notification-ball{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    color: white;
+    background-color: #ff4848;
+    top: -6px;
+    right:-6px;
+}
+.notification-ball span{
+    line-height: 24px;
+    padding-left: 8px;
+}
+.last-logins:last-child{
+    margin-left: 10px;
+}
+.last-logins img{
+    width: 159px;
+    height: calc(212px - 46px);
+    border-radius: 5px 5px 0 0;
+
+}
+.last-logins .name{
+    position: absolute;
+    width: 160px;
+    height: 46px;
+    top: calc(212px - 46px);
+    background-color: #ffff;
+    border-radius: 0 0 5px 5px;
+
+}
+.name> h3{
+    font-weight: normal;
+    text-align: center;
+    line-height: 46px;
+}
+ /* Login Box */
+
+.login-form{
+    width: 396px;
+    height: 340px;
+    background-color: white;
+    border-radius: 8px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 60px;
+    padding:  5px 20px;
+    text-align: center;
+    position: relative;
+}
+.login-form form input{
+    display: block;
+}
+.login-form form input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f0f2f5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+/* Placeholder Input color */
+::-webkit-input-placeholder {color: #989898;}
+:-moz-placeholder {color: #989898;}
+::-moz-placeholder {color: #989898;}
+:-ms-input-placeholder {color: #989898;}
+
+#enter{
+    background-color: #1877f2 ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.login-form form a {
+    text-decoration: none;
+    color: #006bc8;
+}
+
+#create-account{
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+.login-form p{
+    position: absolute;
+    bottom: -30px;
+    font-family: "Roboto Condensed", serif;
+    font-weight: bold;
+}
