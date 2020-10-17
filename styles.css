@@ -150,3 +150,20 @@ img{
     font-family: "Roboto Condensed", serif;
     font-weight: bold;
 }
+
+@media screen and (max-width:580px ) {
+    .container{
+        width: 100%;
+        min-width: auto;
+        display: block;
+        padding: 0;
+    }
+    .recent-logins{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .login-form{
+        width: 100%;
+        margin: 10% auto;
+    }
+}
