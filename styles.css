@@ -71,6 +71,7 @@ img{
     width: 159px;
     height: calc(212px - 46px);
     border-radius: 5px 5px 0 0;
+    object-fit: cover;
 
 }
 .last-logins .name{
@@ -126,6 +127,10 @@ img{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
+    transition: 1s;
+}
+#enter:hover{
+    background-color: #125ec2;
 }
 
 .login-form form a {
@@ -141,17 +146,25 @@ img{
     width: 60%;
     margin: 0 auto;
     border-radius: 5px;
+    cursor: pointer;
+    transition:1s;
+}
+#create-account:hover{
+    background-color: rgb(41, 172, 41);
+    
 }
 
-
-.login-form p{
+.login-form h2,#rigthsOfFacebook{
     position: absolute;
     bottom: -30px;
     font-family: "Roboto Condensed", serif;
     font-weight: bold;
 }
+.login-form #rigthsOfFacebook{
+    bottom: -60px;
+}
 
-@media screen and (max-width:580px ) {
+@media screen and (max-width:800px ) {
     .container{
         width: 100%;
         min-width: auto;
