@@ -127,9 +127,10 @@ img{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
-    transition: 1s;
+    cursor: pointer;
 }
 #enter:hover{
+    transition: 1s;
     background-color: #125ec2;
 }
 
@@ -147,9 +148,9 @@ img{
     margin: 0 auto;
     border-radius: 5px;
     cursor: pointer;
-    transition:1s;
 }
 #create-account:hover{
+    transition:1s;
     background-color: rgb(41, 172, 41);
     
 }
