@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 html, body{
     height: 100%;
@@ -102,6 +103,7 @@ img{
     padding:  5px 20px;
     text-align: center;
     position: relative;
+    box-shadow: 9px 9px 30px rgba(170,170,170,0.4);
 }
 .login-form form input{
     display: block;
@@ -156,15 +158,6 @@ img{
     
 }
 
-.login-form h2,#rigthsOfFacebook{
-    position: absolute;
-    bottom: -30px;
-    font-family: "Roboto Condensed", serif;
-    font-weight: bold;
-}
-.login-form #rigthsOfFacebook{
-    bottom: -60px;
-}
 
 @media screen and (max-width:800px ) {
     .container{
